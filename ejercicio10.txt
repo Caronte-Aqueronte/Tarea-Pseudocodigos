@@ -1,0 +1,11 @@
+Algoritmo ejercicio10
+	Definir area Como Real
+	Definir perimetro Como Real
+	Escribir "Ingrese la base"
+	Leer base
+	Escribir "Ingrese la altura"
+	Leer altura
+	area = base * altura
+	perimetro = (2*base)+(2*altura)
+	Escribir "El area es ",area," y el perimetro es ", perimetro	
+FinAlgoritmo
