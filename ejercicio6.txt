@@ -1,0 +1,8 @@
+Algoritmo ejercicio6
+	Definir random Como Entero
+	Definir porsentaje Como Real
+	random = azar(201)
+	Escribir  "El numero aleatorio es ", random
+	porsentaje = random * 0.3
+	Escribir "El numero aumentado un 30% es ", random+porsentaje
+FinAlgoritmo
