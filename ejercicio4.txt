@@ -1,0 +1,10 @@
+Algoritmo ejercicio4
+	Definir num Como Entero
+	Definir cuadrado Como Entero
+	Definir  cubo Como Entero 
+	Escribir "Ingrese un numero"
+	Leer num
+	cuadrado = num^2
+	cubo = num^3
+	Escribir "El cuadrado de ", num," es ",cuadrado," y el cubo es ", cubo
+FinAlgoritmo
