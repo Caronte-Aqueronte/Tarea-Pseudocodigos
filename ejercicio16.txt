@@ -1,0 +1,13 @@
+Algoritmo ejercicio16
+	Escribir "Ingrese tres numeros"
+	Leer num1,num2,num3
+	Si num1 > num2 y num1 > num3 Entonces
+		Escribir "El numero ",num1," es el mayor de los tres"
+	SiNo
+		Si num2 > num1 y num2 > num3 Entonces
+			Escribir "El numero ",num2," es el mayor de los tres"
+		SiNo
+			Escribir  "El numero ",num3," es el mayor de los tres"
+		Fin Si
+	Fin Si
+FinAlgoritmo
