@@ -1,0 +1,14 @@
+Algoritmo ejercicio15
+	Definir num Como Entero
+	Escribir "Ingrese un numero"
+	Leer num
+	Si num > 0 y num <> null Entonces
+		Escribir "Tu numero es positivo"
+	SiNo
+		Si num < 0  Entonces
+			Escribir "Tu numero es negativo"
+		SiNo
+			Escribir "Tu numero es nulo"
+		Fin Si
+	Fin Si
+FinAlgoritmo
