@@ -1,0 +1,7 @@
+Algoritmo ejercicio12
+	Definir celcius Como Real
+	Escribir "Ingrese los grados"
+	Leer grados
+	celcius = (grados - 32) * (5/9)
+	Escribir  "Son ",celcius," grados celcius"
+FinAlgoritmo
