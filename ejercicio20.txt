@@ -1,0 +1,21 @@
+Algoritmo ejercicio20
+	Definir num Como Entero
+	Definir suma Como Entero
+	Escribir "Ingrese un numero"
+	Leer num
+	Si num <= 99999 y num >= 10000 Entonces
+		decenamillar = ConvertirANumero(SubCadena(ConvertirATexto(num),5,5))*10000
+		unidadmillar = ConvertirANumero(SubCadena(ConvertirATexto(num),4,4))*1000
+		centena = ConvertirANumero(SubCadena(ConvertirATexto(num),3,3))*100
+		decena = ConvertirANumero(SubCadena(ConvertirATexto(num),2,2))*10
+		unidad = ConvertirANumero(SubCadena(ConvertirATexto(num),1,1))*1
+		suma = decenamillar+unidadmillar+centena+decena+unidad
+		Si suma == num Entonces
+			Escribir "Es capicua"
+		SiNo
+			Escribir "No es capicua"
+		Fin Si
+	SiNo
+		Escribir "Numero invalido"
+	Fin Si
+FinAlgoritmo
