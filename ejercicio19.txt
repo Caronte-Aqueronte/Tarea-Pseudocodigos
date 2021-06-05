@@ -1,0 +1,14 @@
+Algoritmo ejercicio19
+	Definir random Como Entero
+	random = azar(1001)
+	//este ciclo asegura que el numero este entre 1 y 1000
+	Mientras random < 1 Hacer
+		random = azar(1001)
+	Fin Mientras
+	Escribir  random
+	Si random % 5 = 0 y random <= 25 Entonces
+		Escribir "Correcto"
+	SiNo
+		Escribir "Incorrecto"
+	Fin Si
+FinAlgoritmo
