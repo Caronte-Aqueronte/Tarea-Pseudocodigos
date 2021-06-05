@@ -1,0 +1,9 @@
+Algoritmo ejercicio5
+	Definir num Como Entero
+	Definir siguiente Como Entero
+	Escribir "Ingrese un numero"
+	Leer num
+	siguiente = num + 1
+	Escribir "El numero despues de ",num, " es ",siguiente
+	
+FinAlgoritmo
