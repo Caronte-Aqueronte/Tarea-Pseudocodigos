@@ -1,0 +1,13 @@
+Algoritmo ejercicio7
+	Definir random Como Entero
+	Definir porsentaje Como Real
+	random = azar(51)
+	//este ciclo da la pauta para que el numero este entre 10 y 50
+	Mientras random < 10 Hacer
+		radom = azar(51) 
+		Escribir "El numero aleatorio es ",random
+	Fin Mientras
+	porsentaje = random * 0.15
+	Escribir "El numero aleatorio es ",random
+	Escribir  "El numero disminuido un 15% es ", random - porsentaje
+FinAlgoritmo
