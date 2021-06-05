@@ -1,0 +1,13 @@
+Algoritmo ejercicio11
+	Definir yarda Como Real
+	Definir metro Como Real
+	Definir pie Como Real
+	Definir pulgada Como Real
+	Escribir  "Ingrese los cm"
+	Leer cm
+	yarda = cm / 91.44
+	metro = cm / 100
+	pie = cm / 30.48
+	pulgada = cm / 2.54
+	Escribir cm,"cms"," a yardas son ",yarda,"yd, ",cm,"cms"," a metros son ",metro,"mts, ",cm,"cms"," a pies son ",pie,"pie, ",cm,"cms"," a pulgadas son ",pulgada,"pulg"
+FinAlgoritmo
