@@ -1,0 +1,13 @@
+Algoritmo ejercicio13
+	Definir radio Como Real
+	Definir altura Como Real
+	Escribir "Ingrese el radio y luego la altura"
+	Leer radio
+	Leer altura
+	Si radio > 0 y altura > 0 Entonces
+		volumen = (PI) * (radio^2) * altura
+		Escribir "El volumen es ", volumen
+	SiNo
+		Escribir "Datos invalidos"
+	Fin Si
+FinAlgoritmo
