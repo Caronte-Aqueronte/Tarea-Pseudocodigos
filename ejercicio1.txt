@@ -1,4 +1,4 @@
-Algoritmo sin_titulo
+Algoritmo ejercicio1
 	Escribir "Igrese dos numeros"
 	Leer numero1, numero2
 	Escribir "La suma es ", numero1+numero2
