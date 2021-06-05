@@ -1,0 +1,5 @@
+Algoritmo ejercicio2
+	Escribir "Ingrese un pais y su capital"
+	Leer pais, capital
+	Escribir capital," es capital de ", pais
+FinAlgoritmo
