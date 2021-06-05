@@ -1,0 +1,14 @@
+Algoritmo ejercicio18
+	Definir num Como Entero
+	Escribir "Ingrese un numero"
+	Leer num
+	Si num <= 9999 Entonces
+		d1 = ConvertirANumero(SubCadena(ConvertirATexto(num),1,1))
+		d2 = ConvertirANumero(SubCadena(ConvertirATexto(num),2,2))
+		d3 = ConvertirANumero(SubCadena(ConvertirATexto(num),3,3))
+		d4 = ConvertirANumero(SubCadena(ConvertirATexto(num),4,4))
+		Escribir "d1=",d1,", d2=",d2,", d3=",d3,", d4=",d4,", la suma es ",(d1+d2+d3+d4)
+	SiNo
+		Escribir "Numero invalido"
+	Fin Si
+FinAlgoritmo
