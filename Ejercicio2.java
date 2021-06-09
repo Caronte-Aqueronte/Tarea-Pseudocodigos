@@ -9,6 +9,6 @@ public class Ejercicio2 {
         System.out.println("Ingrese un pais y su capital");
         pais = scanner.nextLine();
         capital = scanner.nextLine();
-        System.out.println(capital+" es capital de "+pais);
+        System.out.println(capital + " es capital de " + pais);
     }
 }
